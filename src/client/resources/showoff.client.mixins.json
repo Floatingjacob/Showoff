@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "floatingjacob.showoff.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatComponentMixin",
+	  "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

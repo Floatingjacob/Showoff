@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "showoff",
+  "version": "${version}",
+  "name": "Showoff",
+  "description": "Adds Terraria-style item sharing to the ingame chat.",
+  "authors": [
+    "FloatingJacob",
+    "ChatGPT",
+    "Google Gemini",
+    "Claude"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "floatingjacob.showoff.Showoff"
+    ],
+    "client": [
+      "floatingjacob.showoff.ShowoffClient"
+    ]
+  },
+  "mixins": [
+    "showoff.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
+}
